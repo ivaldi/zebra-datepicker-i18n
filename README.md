@@ -20,5 +20,5 @@ When `'nl'` is available in your Rails I18n `available_locales`, you can
 initialise a Zebra Datepicker in Dutch using:
 
 ```
-jQuery('[data-datepicker]').Zebra_Datepicker_I18n({ locale: 'nl' });
+jQuery('[data-datepicker]').Zebra_DatePicker_I18n({ locale: 'nl' });
 ```
