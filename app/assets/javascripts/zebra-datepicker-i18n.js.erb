@@ -6,20 +6,17 @@ $.fn.Zebra_DatePicker_I18n = function(options) {
         '<%= raw I18n.t('date.day_names', locale: locale).join('\',\'') %>'
       ],
       days_abbr: [
-        '<%= raw I18n.t('date.abbr_day_names', locale: locale)
-            .join('\',\'') %>'
+        '<%= raw I18n.t('date.abbr_day_names', locale: locale).join('\',\'') %>'
       ],
       format: '<%= I18n.t('date.formats.default').gsub '%', '' %>',
       months: [
-        '<%= raw I18n.t('date.month_names', locale: locale)[1..12]
-            .join('\',\'') %>'
+        '<%= raw I18n.t('date.month_names', locale: locale)[1..12].join('\',\'') %>'
       ],
       months_abbr: [
-        '<%= raw I18n.t('date.abbr_month_names', locale: locale)[1..12]
-            .join('\',\'') %>'
+        '<%= raw I18n.t('date.abbr_month_names', locale: locale)[1..12].join('\',\'') %>'
       ],
-      show_select_today: '<%= I18n.t :today, locale: locale %>',
-      lang_clear_date: '<%= I18n.t :clear, locale: locale %>'
+      show_select_today: '<%= I18n.t(:today, locale: locale).gsub('\'', '\\\\\'') %>',
+      lang_clear_date: '<%= I18n.t(:clear, locale: locale).gsub('\'', '\\\\\'') %>'
     };
   <% end %>
 
