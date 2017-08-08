@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'zebra-datepicker-i18n'
-  s.version     = '0.1.0'
+  s.version     = '0.1.2'
   s.authors     = ['Frank Groeneveld']
   s.email       = ['frank@ivaldi.nl']
   s.summary     = %q{Extend Zebra Datepicker with internationalization}
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'rails', '>= 4', '< 6'
-  s.add_dependency 'zebra-datepicker-rails', '1.9.2'
+  s.add_dependency 'zebra-datepicker-rails', '~> 1.9.2'
   s.add_dependency 'rails-i18n', '>= 4', '< 6'
 end
