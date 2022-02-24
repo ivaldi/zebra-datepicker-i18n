@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
   s.require_paths = ['lib']
 
-  s.add_dependency 'rails', '>= 4', '< 7'
+  s.add_dependency 'rails', '>= 4'
   s.add_dependency 'zebra-datepicker-rails', '~> 1.9.2'
-  s.add_dependency 'rails-i18n', '>= 4', '< 7'
+  s.add_dependency 'rails-i18n', '>= 4'
 end
