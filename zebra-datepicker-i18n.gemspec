@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'zebra-datepicker-i18n'
-  s.version     = '0.1.3'
+  s.version     = '0.1.4'
   s.authors     = ['Frank Groeneveld']
   s.email       = ['frank@ivaldi.nl']
   s.summary     = %q{Extend Zebra Datepicker with internationalization}
